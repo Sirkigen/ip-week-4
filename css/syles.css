@@ -1,0 +1,27 @@
+.landing {
+  background-position: center center;
+  color: brown;
+  text-align: center;
+  padding-top: 17%;
+  font-family: 'Gabriela', serif;
+}
+.landing, h1{
+  padding:3px;
+  margin: 6px;
+}
+.landing p{
+   padding:2px;
+}
+
+.offers{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+.order{
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: bold;
+  font-size: 18px;
+  color: black;
+  padding: 5%
+}
