@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/syles.css">
+  <title>PIZZA MTAANI</title>
+</head>
+<body>
+  <div clas="container fluid"></div>
+    <div class="landing">
+      <img src="css/img/3pizza.jpeg" alt="logo" id="logo">
+      <h1>WELCOME</h1>
+      <h1>TO PIZZA MTAANI.</h1>
+      <p>LOVE AT FIRST SLICE</p> <br>
+    </div>
+
+    <div class="offers">
+       <h2>Welcome</h2>
+       <p>We continue to deliver the best tasting pizza using only the freshest ingredients.</p> 
+       <p>The pizza dough is made fresh daily in store, and the all-natural tomato sauce is</p> 
+       <p> blend of sun-ripened tomatoes, herbs and spices.</p>
+    </div>
+
+  <div class="order">
+
+      <p>Please places your order hear</p>
+      <p>orders:</p>
+    <form class="form form-block form-details">  
+    <div class="size">
+      <label class=" control-label" >How big would you like your delicious:</label>
+    <div id="radiobutton">
+        <input type="radio"  name="size" value="large" >
+        <label for="large">large</label>
+    </div>
+    <div id="radio-button">
+        <input type="radio" name="size" value="medium">
+        <label for="medium">medium</label>
+    </div>
+    <div id="radiobutton">
+        <input type="radio" name="size"  value="small">
+        <label for="small">small</label>
+    </div>
+    </div>
+    <br>
+    <div class="crust">
+      <label class=" control-label" >how do you love your crust:</label>
+    <div id="radiobutton">
+        <input type="radio"  name="crust" value="crispy" >
+        <label for="crispy">crispy</label>
+    </div>
+    <div id="radio-button">
+        <input type="radio" name="crust" value="stuffed">
+        <label for="stuffed">stuffed</label>
+    </div>
+    <div id="radiobutton">
+        <input type="radio" name="crust"  value="gluten free">
+        <label for="gluten free">gluten free</label>
+    </div>
+    </div>
+
+    <div class="toppings">
+      <label class=" control-label">what toppings would you love:</label>
+      <div class="form-check">
+          <input type="checkbox" name="toppings" value="xtraCheese" id="xtraCheese" required>
+          <label for="xtraCheese">xtra Cheese</label>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" name="toppings" value="bacon" id="bacon">
+          <label for="bacon">bacon</label>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" name="toppings" value="sausages" id="sausages">
+          <label for="sausages">sausages</label>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" name="veggies" value="veggies" id="veggies">
+          <label for="veggies">veggies</label>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" name="toppings" value="corn" id="corn">
+          <label for="corn">corn</label>
+      </div>
+    </div>
+
+    <div>
+      <label>quantity:</label><br>
+      <input type="number" name="quantity" value="0"> 
+    </div>
+    
+    <div class="alert alert-warining">
+      <em>Thank you for choosing us. Your order is-<span class="fillName" ></span></em> <br>
+      <em>Size:-<span id="size" class="result"></span> </em> <br>
+      <em>Crust is:- <span id="crust" class="result"></span> </em> <br>
+      <em>With:<span id="select-toppings" class="result"></span> </em> <br>
+    </div>
+
+    <button class="btn btn-warning btn-block btn-lg " type="submit">checkout</button>
+</form>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
